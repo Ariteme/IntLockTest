@@ -1,1 +1,0 @@
-# Trello-JJDMasa2019
