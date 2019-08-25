@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="Regression">
+        <classes>
+            <class name="tests.TestYes.TestFirst"/>
+            <class name="tests.TestYes.TestSecond"/>
+            <class name="tests.TestYes.TestThird"/>
+            <class name="tests.TestYes.TestFourth"/>
+            <class name="tests.TestYes.TestFifth"/>
+            <class name="tests.TestNo.TestSixth"/>
+            <class name="tests.TestNo.TestSeventh"/>
+            <class name="tests.TestNo.TestEighth"/>
+            <class name="tests.TestNo.TestNineth"/>
+            <class name="tests.TestNo.TestTenth"/>
+            <class name="tests.TestYes.TestEleventh"/>
+            <class name="tests.TestNo.TestTwelveth"/>
+            <class name="tests.TestWithoutExactAnswer.TestThirteenth"/>
+            <class name="tests.TestWithoutExactAnswer.TestFourteenth"/>
+            <class name="tests.TestWithoutExactAnswer.TestFifteenth"/>
+            <class name="tests.TestWithoutExactAnswer.TestSixteenth"/>
+            <class name="tests.TestWithoutExactAnswer.TestSeventeenth"/>
+            <class name="tests.TestEmptySurveyConfirmation.TestEighteenth"/>
+        </classes>
+    </test>
+</suite>
