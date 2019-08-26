@@ -9,6 +9,7 @@ public class TestEighteenth extends TestBase {
     @Test
     public void checkRadioButton() {
         app.getBase().waitingUntilPageLoad();
+        app.getBase().waitUntilSurveyExists();
         app.getBase().click(By.id("_cassubmit"));
         Assert.assertFalse(Boolean.parseBoolean("_cassubmit"));
         app.getBase().goTo();

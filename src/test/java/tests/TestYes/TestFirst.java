@@ -9,6 +9,7 @@ public class TestFirst extends TestBase {
     @Test
     public void checkRadioButton() {
         app.getBase().waitingUntilPageLoad();
+        app.getBase().waitUntilSurveyExists();
         app.getBase().click(By.id("q0_0"));
         app.getBase().click(By.id("q1_0"));
         app.getBase().click(By.id("_cassubmit"));

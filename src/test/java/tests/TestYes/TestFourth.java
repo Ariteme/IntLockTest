@@ -9,6 +9,7 @@ public class TestFourth extends TestBase {
     @Test
     public void checkRadioButton() throws InterruptedException {
         app.getBase().waitingUntilPageLoad();
+        app.getBase().waitUntilSurveyExists();
         app.getBase().click(By.id("q0_0"));
         app.getBase().click(By.id("q1_3"));
         app.getBase().click(By.id("_cassubmit"));

@@ -24,6 +24,12 @@ public class HelperBase {
         alert.dismiss();
     }
 
+    public void waitUntilSurveyExists() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("q0_0")));
+        // wait.until(ExpectedConditions.elementToBeClickable(By.id("q0_0")));
+    }
+
     public void goTo() {
         driver.navigate().to("http://spdemo.intlock.com/SitePages/Home.aspx");
     }
